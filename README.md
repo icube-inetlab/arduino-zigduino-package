@@ -54,4 +54,22 @@ Click on **Tools > Board**, *zigduino_r1* and *zigduino_r2* are available now.
 
 
 
+
+#Usage 
+
+When you need to modify the package, after create the zip file use this command
+
+```
+shasum -a 256 zigduino-avr_1.0.0.zip
+```
+
+Copy en replace the SHA-256 in the JSON file.
+
+Don't forget to ckeck and modify the zip size in the JSON file   
+
+
+
+
+
+
 package created from :  https://github.com/logos-electromechanical/Zigduino-1.0
