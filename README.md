@@ -1,4 +1,4 @@
-##Arduino Zigduino Package 
+#Arduino Zigduino Package 
 Configuration of Zigduino boards that can be loaded by the Arduino board manager. 
 
 Containts :
@@ -8,15 +8,19 @@ Containts :
 	- Zigduino package
 
 
-##Installation 
+#Installation 
 
-# 1 - Download the lastest Arduino IDE
+
+
+## 1 - Download the lastest Arduino IDE
 
 You need a Arduino IDE version 1.6.10 or later, download link below :
 
 [![](https://planet.u-strasbg.fr/redmine/projects/arduino-zigduino-package/repository/revisions/master/entry/img/arduino.png)](https://www.arduino.cc/en/Main/Software)
 
-# 2 - Setting your Arduino IDE 
+
+
+## 2 - Setting your Arduino IDE 
 
 Open your Arduino IDE, click on **File > Preferences**, and copy below url to *Additional Boards Manager URLs*
 
@@ -26,21 +30,28 @@ https://planet.u-strasbg.fr/redmine/projects/arduino-zigduino-package/repository
 
 ![](https://planet.u-strasbg.fr/redmine/projects/arduino-zigduino-package/repository/revisions/master/entry/img/select_json_file.png)
 
-# 3 - Board Manager 
+
+
+## 3 - Board Manager 
 
 Click on **Tools > Board > Board Manager**
 
 ![](https://planet.u-strasbg.fr/redmine/projects/arduino-zigduino-package/repository/revisions/master/entry/img/board.png)
 
-Select and install Zigduino AVR Board 
+
+
+## 4 - Select and install Zigduino AVR Board 
 
 ![](https://planet.u-strasbg.fr/redmine/projects/arduino-zigduino-package/repository/revisions/master/entry/img/add_board.png)
 
-# 4 - Select a Zigduino Board 
+
+
+## 5 - Use a Zigduino Board 
 
 Click on **Tools > Board**, *zigduino_r1* and *zigduino_r2* are available now.
 
 ![](https://planet.u-strasbg.fr/redmine/projects/arduino-zigduino-package/repository/revisions/master/entry/img/select_board.png)
+
 
 
 package created from :  https://github.com/logos-electromechanical/Zigduino-1.0
