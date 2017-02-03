@@ -1,0 +1,64 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+zigduino_r1.name=Zigduino_r1
+
+zigduino_r1.upload.tool=arduino:avrdude
+zigduino_r1.upload.protocol=arduino
+zigduino_r1.upload.maximum_size=126976
+zigduino_r1.upload.speed=57600
+zigduino_r1.upload.use_1200bps_touch=true
+zigduino_r1.upload.wait_for_upload_port=true
+
+zigduino_r1.bootloader.tool=avrdude
+zigduino_r1.bootloader.low_fuses=0xFF
+zigduino_r1.bootloader.high_fuses=0xDA
+zigduino_r1.bootloader.extended_fuses=0xF5
+zigduino_r1.bootloader.file=atmega/ATmegaBOOT_168_atmega128rfa1.hex
+zigduino_r1.bootloader.unlock_bits=0x3F
+zigduino_r1.bootloader.lock_bits=0x0F
+
+zigduino_r1.build.vid=0x0403
+zigduino_r1.build.pid=0x6015
+zigduino_r1.build.usb_product="Zigduino R1"
+zigduino_r1.build.usb_manufacturer="Logos Electromechanical LCC"
+zigduino_r1.build.extra_flags={build.usb_flags}
+
+
+zigduino_r1.build.mcu=atmega128rfa1
+zigduino_r1.build.f_cpu=16000000L
+zigduino_r1.build.core=zigduino
+zigduino_r1.build.variant=zigduino_r1
+zigduino_r1.build.board=AVR_ZIGDUINO_R1
+
+
+##############################################################
+
+zigduino_r2.name=Zigduino_r2
+
+zigduino_r2.upload.tool=arduino:avrdude
+zigduino_r2.upload.protocol=arduino
+zigduino_r2.upload.maximum_size=126976
+zigduino_r2.upload.speed=57600
+zigduino_r2.upload.use_1200bps_touch=true
+zigduino_r2.upload.wait_for_upload_port=true
+
+zigduino_r2.bootloader.tool=avrdude
+zigduino_r2.bootloader.low_fuses=0xFF
+zigduino_r2.bootloader.high_fuses=0xDA
+zigduino_r2.bootloader.extended_fuses=0xF5
+zigduino_r2.bootloader.file=atmega/ATmegaBOOT_168_atmega128rfa1.hex
+zigduino_r2.bootloader.unlock_bits=0x3F
+zigduino_r2.bootloader.lock_bits=0x0F
+
+zigduino_r2.build.vid=0x0403
+zigduino_r2.build.pid=0x6015
+zigduino_r2.build.usb_product="Zigduino R2"
+zigduino_r2.build.usb_manufacturer="Logos Electromechanical LCC"
+zigduino_r2.build.extra_flags={build.usb_flags}
+
+zigduino_r2.build.mcu=atmega128rfa1
+zigduino_r2.build.f_cpu=16000000L
+zigduino_r2.build.core=zigduino
+zigduino_r2.build.variant=zigduino_r2
+zigduino_r2.build.board=AVR_ZIGDUINO_R2
+
