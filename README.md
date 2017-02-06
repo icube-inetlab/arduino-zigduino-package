@@ -16,7 +16,7 @@ Containts :
 
 You need a Arduino IDE version 1.6.10 or later, download link below :
 
-[![](https://planet.u-strasbg.fr/redmine/projects/arduino-zigduino-package/repository/revisions/master/entry/img/arduino.png)](https://www.arduino.cc/en/Main/Software)
+![](https://www.arduino.cc/en/Main/Software)
 
 
 
@@ -59,9 +59,9 @@ Click on **Tools > Board**, *zigduino_r1* and *zigduino_r2* are available now.
 
 When you need to modify the package, after create the zip file use this command
 
-```
-shasum -a 256 zigduino-avr_1.0.0.zip
-```
+
+	shasum -a 256 zigduino-avr_1.0.0.zip
+
 
 Copy en replace the SHA-256 in the JSON file.
 
@@ -72,4 +72,4 @@ Don't forget to ckeck and modify the zip size in the JSON file
 
 
 
-package created from :  https://github.com/logos-electromechanical/Zigduino-1.0
+package created from :  ![](https://github.com/logos-electromechanical/Zigduino-1.0)
