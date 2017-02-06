@@ -14,9 +14,7 @@ Containts :
 
 ## 1 - Download the lastest Arduino IDE
 
-You need a Arduino IDE version 1.6.10 or later, download link below :
-
-[here](https://www.arduino.cc/en/Main/Software)
+You need a Arduino IDE version 1.6.10 or later, download link : [here](https://www.arduino.cc/en/Main/Software)
 
 
 
