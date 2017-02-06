@@ -16,7 +16,7 @@ Containts :
 
 You need a Arduino IDE version 1.6.10 or later, download link below :
 
-![](https://www.arduino.cc/en/Main/Software)
+[](https://www.arduino.cc/en/Main/Software)
 
 
 
@@ -72,4 +72,4 @@ Don't forget to ckeck and modify the zip size in the JSON file
 
 
 
-package created from :  ![](https://github.com/logos-electromechanical/Zigduino-1.0)
+package created from :  [](https://github.com/logos-electromechanical/Zigduino-1.0)
