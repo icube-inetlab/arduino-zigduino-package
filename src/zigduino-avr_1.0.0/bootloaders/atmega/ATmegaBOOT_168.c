@@ -286,6 +286,27 @@ uint8_t error_count = 0;
 
 void (*app_start)(void) = 0x0000;
 
+/* Only required if we want to examine reset source later on. */
+uint8_t mcusr_mirror __attribute__ ((section (".noinit")));
+
+// This function is called upon a HARDWARE RESET:
+void wdtreset(void) __attribute__((naked)) __attribute__((section(".init3")));
+
+// Clear SREG_I on hardware reset.
+void wdtreset(void)
+{
+	// Note that for newer devices (any AVR that has the option to also
+	// generate WDT interrupts), the watchdog timer remains active even
+	// after a system reset (except a power-on condition), using the fastest
+	// prescaler value (approximately 15 ms). It is therefore required
+	// to turn off the watchdog early during program startup.
+	//MCUSR = 0; // clear reset flags
+	//wdt_disable();
+	mcusr_mirror = MCUSR;
+	MCUSR &= ~(1 << WDRF);
+	wdt_disable();
+	return;
+}
 
 /* main program starts here */
 int main(void)
