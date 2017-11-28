@@ -11,7 +11,7 @@
                "architecture": "avr",
                "version": "1.0.0",
                "category": "Contributed",
-               "url": "https://planet.u-strasbg.fr/redmine/projects/arduino-zigduino-package/repository/revisions/master/raw/package/zigduino-avr_1.0.0.zip",
+               "url": "https://raw.githubusercontent.com/icube-inetlab/arduino-zigduino-package/master/package/zigduino-avr_1.0.0.zip",
                "archiveFileName": "zigduino-avr_1.0.0.zip",
                "checksum": "SHA-256:371bfa0fdce6d98558ded4adbb5a867e218afb9b6ebdb03c2ca121143d787638",
                "size": "5048885",

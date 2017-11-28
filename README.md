@@ -23,6 +23,7 @@ You need a Arduino IDE version 1.6.10 or later, download link : [here](https://w
 Open your Arduino IDE, click on **File > Preferences**, and copy below url to *Additional Boards Manager URLs*
 
 ```
+https://raw.githubusercontent.com/icube-inetlab/arduino-zigduino-package/master/package/package_zigduino_index.json
 https://planet.u-strasbg.fr/redmine/projects/arduino-zigduino-package/repository/revisions/master/entry/package/package_zigduino_index.json
 ```
 
